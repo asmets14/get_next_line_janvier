@@ -6,12 +6,11 @@
 /*   By: asmets <asmets@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/04 13:36:17 by asmets            #+#    #+#             */
-/*   Updated: 2015/02/10 04:15:54 by jchichep         ###   ########.fr       */
+/*   Updated: 2015/02/12 13:41:36 by asmets           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 int			remove_from_list(t_list **list, char *temp)
 {

@@ -6,7 +6,7 @@
 /*   By: asmets <asmets@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/04 14:06:58 by asmets            #+#    #+#             */
-/*   Updated: 2015/02/10 04:17:06 by jchichep         ###   ########.fr       */
+/*   Updated: 2015/02/12 14:11:57 by asmets           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <stdlib.h>
 # include "libft/libft.h"
 
-# define BUFF_SIZE 100
+# define BUFF_SIZE 16
 
 typedef struct	s_rest
 {
