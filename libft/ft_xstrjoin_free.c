@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_xstrjoin_free.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asmets <asmets@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/02/12 13:48:37 by asmets            #+#    #+#             */
+/*   Updated: 2015/02/12 13:49:26 by asmets           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 
-// joint, exit et free selon le troisieme parametre 
-
+/*
+**  joint, exit et free selon le troisieme parametre
+*/
 char *ft_xstrjoin_free(char const *s1, char const *s2, char freez)
 {
 	char	*str;

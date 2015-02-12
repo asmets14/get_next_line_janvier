@@ -6,14 +6,15 @@
 /*   By: asmets <asmets@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/04 12:49:15 by asmets            #+#    #+#             */
-/*   Updated: 2015/02/04 13:06:38 by asmets           ###   ########.fr       */
+/*   Updated: 2015/02/12 13:45:40 by asmets           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// copie jusqu'au caractere c non inclu.
-
 #include "libft.h"
 
+/*
+** copie jusqu'au caractere c non inclu
+*/
 char *ft_strcdup(char *s1, char c)
 {
 	int i;

@@ -6,7 +6,7 @@
 /*   By: asmets <asmets@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/16 19:09:27 by asmets            #+#    #+#             */
-/*   Updated: 2015/02/04 13:06:21 by asmets           ###   ########.fr       */
+/*   Updated: 2015/02/12 13:51:38 by asmets           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,7 +103,8 @@ char				*ft_strcpy(char *dst, char *src);
 char				*ft_strncpy(char *dst, char *src, size_t n);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_xstrjoin(char const *s1, char const *s2);
-char 				*ft_xstrjoin_free(char const *s1, char const *s2, char freez);
+char				*ft_xstrjoin_free(char const *s1, char const *s2,
+char freez);
 char				*ft_strtrim(char const *s);
 char				**ft_strsplit(char const *s, char c);
 size_t				ft_strlcat(char *dst, const char *src, size_t size);
